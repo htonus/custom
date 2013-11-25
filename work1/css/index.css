@@ -1,0 +1,144 @@
+HTML * {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+BODY, IMD {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+INPUT {
+	outline: none;
+}
+A, A:hover {
+	text-decoration: none;
+}
+
+.btn {
+	background-image: none;
+}
+.header {
+	background-color: #211e1f;
+	padding: 0px 50px;
+}
+
+.header .logo {
+	padding: 40px 0px 0px 0px;	
+}
+
+.icon-my {
+	display: inline-block;
+	width: 30px;
+	height: 40px;
+	margin: 1px 5px 0px 0px;
+	line-height: 40px;
+	vertical-align: text-top;
+	background: url("/img/icon_my.png") 0px 0px no-repeat;
+}
+.icon-en {
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	line-height: 20px;
+	vertical-align: text-top;
+	background: url("/img/icon_en.png") 0px 0px no-repeat;
+}
+
+.line1 {
+	margin-top: 10px
+}
+.link1 {
+	text-align: center;
+}
+.line1 .link1 B {
+	color: #c2c1c2;
+	border-bottom: 2px solid #a57527;
+	font: normal 12px Tahoma, sans-serif;
+	text-decoration: none;
+}
+.line1 .link2 A {
+	color: #707072;
+	font: normal 12px sans-serif;
+}
+.line1 .link2 B {
+	margin: 0px 10px;
+	color: #707072;
+	font-size: 10px;
+}
+.line1 .dropdown-toggle SPAN {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.line1 .caret {
+	border-top: 7px solid #707072;
+}
+.btn-grey,
+.btn-grey:hover,
+.btn-grey:focus,
+.btn-grey:active,
+.btn-grey.active,
+.btn-grey.disabled,
+.btn-grey[disabled] {
+	color: #707072;
+	background-color: #302d2e;
+	border: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+}
+.btn-trans,
+.btn-trans:hover,
+.btn-trans:focus,
+.btn-trans:active,
+.btn-trans.active,
+.btn-trans.disabled,
+.btn-trans[disabled] {
+	color: #707072;
+	border: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	text-align: left;
+	background: url("/img/bg_radio.png") 0px 13px transparent no-repeat;
+}
+.btn-trans:hover,
+.btn-trans:focus,
+.btn-trans:active,
+.btn-trans.active {
+	background-position: 0px -18px;
+}
+.line2 BUTTON {
+	padding-left: 20px;
+	font: 11px bold sans-serif;
+}
+.line2 BUTTON B {
+	display: block;
+	color: #ae8c05;
+	font-size: 11px;
+	margin-top: 4px;
+}
+.line2 .input-append * {
+	background-color: #322f30;
+	border: #322f30;
+	color: #c2c1c2;
+}
+
+
+
+.menu {
+	background: url("/img/bg_menu.png")	0px 0px #9c9ba0 repeat-x;
+	line-height: 70px;
+	padding: 0px 50px;
+}
+
+.menu input {
+	border-top-left-radius: 5px !important;;
+	border-bottom-right-radius: 5px !important;;
+	-webkit-border-top-left-radius: 5px !important;
+	-webkit-border-bottom-right-radius: 5px !important;
+	-moz-border-top-left-radius: 5px !important;
+	-moz-border-bottom-right-radius: 5px !important;
+	margin-bottom: 0px;
+	padding: 0px 10px;
+}
