@@ -167,13 +167,13 @@ A, A:hover {
 	list-style: none;
 }
 .carousel-indicators LI {
-	width: 20px;
-	height: 20px;
-	margin-left: 15px;
+	width: 12px;
+	height: 12px;
+	margin-left: 8px;
 	text-indent: -999px;
-	background: #ae8c05;
-	border: 1px solid #ae8c05;
-	border-radius: 10px !important;
+	background: #d9a300;
+	border: 1px solid #d9a300;
+	border-radius: 6px !important;
 }
 .carousel-indicators LI.active {
 	
