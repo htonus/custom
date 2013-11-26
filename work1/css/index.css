@@ -229,3 +229,18 @@ A, A:hover {
 	width: 100%;
 	height: 390px;
 }
+
+.grey-line {
+	width: 100%;
+	padding: 20px 50px;
+	background-color: #EEE;
+	color: #020202;
+	font: normal 12px sans-serif;
+}
+.grey-line SPAN {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	font: bold 34px sans-serif;
+	line-height: 30px;
+}
