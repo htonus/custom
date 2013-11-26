@@ -39,11 +39,13 @@ A, A:hover {
 	vertical-align: text-top;
 	background: url("/img/icon_my.png") 0px 0px no-repeat;
 }
-.icon-en {
-	display: inline-block;
+.flag-en {
+	display: block;
+	float: right;
 	width: 18px;
 	height: 14px;
-	line-height: 20px;
+	line-height: 14px;
+	margin-top: 4px;
 	vertical-align: text-top;
 	background: url("/img/icon_en.png") 0px 0px no-repeat;
 }
@@ -360,7 +362,10 @@ H3 {
 .fb:hover {	background-position: 0px -36px;}
 .tw:hover {	background-position: -50px -36px;}
 .in:hover {	background-position: -100px -36px;}
-.ut:hover {	background-position: -147px -35px;}
+.ut:hover {	background-position: -147px -36px;}
 
 
 
+.dropdown-menu LI:hover {
+	background-color: #FFF;
+}
