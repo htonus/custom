@@ -159,6 +159,25 @@ A, A:hover {
 	font: bold 15px sans-serif;
 	vertical-align: middle;
 }
+.carousel-indicators {
+	top: auto;
+	bottom: 30px;
+	right: 30px;
+	margin: 0;
+	list-style: none;
+}
+.carousel-indicators LI {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	text-indent: -999px;
+	background: #ae8c05;
+	border: 1px solid #ae8c05;
+	border-radius: 10px !important;
+}
+.carousel-indicators LI.active {
+	
+}
 .links {
 	border-right: 0px;
 	border-left: 1px solid #FFF;
