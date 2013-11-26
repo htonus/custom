@@ -124,14 +124,12 @@ A, A:hover {
 	color: #c2c1c2;
 }
 
-
 .menu {
 	background: url("/img/bg_menu.png")	0px 0px #9c9ba0 repeat-x;
 	line-height: 70px;
 	padding: 0px 50px;
 	border-bottom: 1px solid #FFF;
 }
-
 .menu input {
 	border-top-left-radius: 5px !important;;
 	border-bottom-right-radius: 5px !important;;
@@ -142,7 +140,19 @@ A, A:hover {
 	margin-bottom: 0px;
 	padding: 0px 10px;
 }
-
+.menu .smart-selector .dropdown-menu {
+	margin-top: -20px;
+}
+.menu .smart-selector BUTTON, .menu .smart-selector.open BUTTON {
+	width: 100%;
+	text-align: left;
+	background: url("/img/btn-arrow-bg.png") 100% 0px #FFF no-repeat;
+	background-size: 30px 100%;
+	white-space: nowrap;
+}
+.menu .smart-selector .caret {
+	border-top: 5px solid #FFF;
+}
 
 .table-carousel TABLE {
 	width: 100%;
