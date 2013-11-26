@@ -129,6 +129,7 @@ A, A:hover {
 	background: url("/img/bg_menu.png")	0px 0px #9c9ba0 repeat-x;
 	line-height: 70px;
 	padding: 0px 50px;
+	border-bottom: 1px solid #FFF;
 }
 
 .menu input {
@@ -140,4 +141,87 @@ A, A:hover {
 	-moz-border-bottom-right-radius: 5px !important;
 	margin-bottom: 0px;
 	padding: 0px 10px;
+}
+
+
+.table-carousel TABLE {
+	width: 100%;
+	/*border: 1px solid #FFF;*/
+	/*border-collapse: collapse;*/
+	background-color: #322f30;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFF;
+	min-height: 400px;
+}
+.table-carousel TABLE TABLE {
+	border-top: 0px;
+}
+.table-carousel TABLE TD {
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	border-collapse: collapse;
+}
+.table-carousel A {
+	line-height: 55px;
+	color: #FFF;
+	font: bold 17px sans-serif;
+	vertical-align: middle;
+}
+
+.links SPAN {
+	display: inline-block;
+	width: 40px;
+	margin: 0px 5px 0px 0px;
+	vertical-align: middle;
+	background: url("/img/link-block.png") no-repeat;
+}
+.links-home SPAN {
+	background-position: 0px center;
+	height: 40px;
+	line-height: 40px;
+}
+.links-about SPAN {
+	background-position: -40px center;
+	height: 42px;
+	line-height: 42x;
+}
+.links-euro SPAN {
+	background-position: -80px center;
+	height: 40px;
+	line-height: 42x;
+}
+.links-wheel SPAN {
+	background-position: -120px center;
+	height: 40px;
+	line-height: 42x;
+}
+.links-case SPAN {
+	background-position: -160px center;
+	height: 40px;
+	line-height: 42x;
+}
+.links-phone SPAN {
+	background-position: -200px center;
+	height: 40px;
+	line-height: 42x;
+}
+.links-head SPAN {
+	background-position: -240px center;
+	height: 40px;
+	line-height: 40x;
+}
+.links-arrow SPAN {
+	background-position: -280px center;
+	height: 55px;
+	line-height: 55x;
+}
+.links-home, .links-arrow {
+	background-color: #211e1f;
+}
+.links-about, .links-wheel, .links-phone {
+	background-color: #ae8c05;
+}
+.links-euro, .links-case, .links-head  {
+	background-color: #752700;
 }
